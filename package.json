@@ -1,0 +1,29 @@
+{
+  "name": "neutrino-bootstrap",
+  "version": "1.0.0",
+  "description": "An exercise",
+  "main": "index.js",
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarekcham/Neutrino-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarekcham/Neutrino-bootstrap/issues"
+  },
+  "homepage": "https://github.com/tarekcham/Neutrino-bootstrap#readme",
+  "devDependencies": {
+    "neutrino": "^7.3.3",
+    "neutrino-preset-airbnb-base": "^7.3.3",
+    "neutrino-preset-web": "^7.3.3"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
