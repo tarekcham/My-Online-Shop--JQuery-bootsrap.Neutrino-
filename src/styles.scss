@@ -1,5 +1,10 @@
-@import '~bootstrap/scss/bootstrap';
+@import './custom-bootstrap';
 
 /*body {
   background-color: red;
 }*/
+
+.card-group {
+  padding-bottom: 2rem;
+
+}
