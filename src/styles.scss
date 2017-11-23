@@ -5,6 +5,29 @@
 }*/
 
 .card-group {
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
+#root nav div ul li a {
+    color: white;
+}
+
+.carousel-item img {
+  width: 90%;
+  margin: auto; 
+  height: 800px;
+  display: block;
+}
+
+.carousel-backColor {
+  background-color: #e3e7ed;
+}
+
+.carouselImag {
+  width: auto;
+  border-radius: 50%;
+}
+.carousel-indicators li {
+  border-radius: 50%;
 }
