@@ -1,35 +1,27 @@
 @import './custom-bootstrap';
 
-/*body {
-  background-color: red;
-}*/
+.shop-{
+  &product {
+    margin-top: $grid-gutter-width * 0.5;
+    margin-bottom: $grid-gutter-width * 0.5;
+  }
 
-.card-group {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  &carousel {
+    height: 50vh;
+    min-height: 200px;
+
+    .carousel-indicators li {
+      border-radius: $carousel-indicator-width;
+    }
+
+    &-description {
+      padding: $grid-gutter-width * 0.5;
+    }
+    &-image {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
 }
 
-#root nav div ul li a {
-    color: white;
-}
-
-.carousel-item img {
-  width: 90%;
-  margin: auto; 
-  height: 800px;
-  display: block;
-}
-
-.carousel-backColor {
-  background-color: #e3e7ed;
-}
-
-.carouselImag {
-  width: auto;
-  border-radius: 50%;
-}
-.carousel-indicators li {
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-}
