@@ -5,7 +5,7 @@ import productCardTemplate from './templates/product-card.html';
 function mkProductCard(product) {
   const $card = $(productCardTemplate);
   $card.find('.card-title').text(product.name);
-  $card.find('.card-img-top').attr('src', `http://via.placeholder.com/320x240?text=${product.name}`);
+  $card.find('.card-img-top').attr('src', `${product.img}`);
   $card.find('.card-text').text(`Price: ${product.price}€`);
   return $card;
 }

@@ -10,7 +10,8 @@
   "name": "Dell 2000",
   "price": 600,
   "category_id": 0,
-  "highlight": true
+  "highlight": true,
+  "img":"./static/1.jpeg"
 },
 {
   "id": 2,
@@ -41,7 +42,8 @@
   "name": "HP Workstation 3",
   "price": 550,
   "category_id": 0,
-  "highlight": true
+  "highlight": true,
+  "img":"./static/2.jpeg"
 },
 {
   "id": 7,
@@ -60,7 +62,8 @@
   "name": "HP Probook 2100",
   "price": 550,
   "category_id": 1,
-  "highlight": true
+  "highlight": true,
+  "img":"./static/3.jpeg"
 },
 {
   "id": 10,
@@ -79,7 +82,8 @@
   "name": "Sony Vaio x1",
   "price": 750,
   "category_id": 1,
-  "highlight": true
+  "highlight": true,
+  "img":"./static/4.jpeg"
 },
 {
   "id": 13,
@@ -110,7 +114,8 @@
   "name": "MacBook Pro 2",
   "price": 1250,
   "category_id": 2,
-  "highlight": true
+  "highlight": true,
+  "img":"./static/5.jpeg"
 },
 {
   "id": 18,
