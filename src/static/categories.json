@@ -1,14 +1,17 @@
 [
   {
     "id": 0,
-    "name": "PC"
+    "name": "Bags",
+    "img": "./static/slide1.jpg"
   },
   {
     "id": 1,
-    "name": "Laptop"
+    "name": "Shoes",
+    "img": "./static/slide2.jpg"
   },
   {
     "id": 2,
-    "name": "Mac"
+    "name": "Other Products",
+    "img": "./static/slide3.jpeg"
   }
 ]

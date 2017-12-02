@@ -1,13 +1,13 @@
 @import './custom-bootstrap';
 
-.shop-{
+.shop- {
   &product {
     margin-top: $grid-gutter-width * 0.5;
     margin-bottom: $grid-gutter-width * 0.5;
   }
 
   &carousel {
-    height: 50vh;
+    height: 70vh;
     min-height: 200px;
 
     .carousel-indicators li {
@@ -24,4 +24,3 @@
     }
   }
 }
-

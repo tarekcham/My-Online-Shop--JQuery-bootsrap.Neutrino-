@@ -6,7 +6,7 @@ function mkProductCard(product) {
   const $card = $(productCardTemplate);
   $card.find('.card-title').text(product.name);
   $card.find('.card-img-top').attr('src', `${product.img}`);
-  $card.find('.card-text').text(`Price: ${product.price}€`);
+  $card.find('.card-text').html(`<strong>Price</strong>: ${product.price}€`);
   return $card;
 }
 

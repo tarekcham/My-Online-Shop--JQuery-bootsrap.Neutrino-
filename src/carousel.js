@@ -8,7 +8,8 @@ function mkIndicator(number) {
 
 function mkSlide(item) {
   const $el = $(carouselItemTemplate);
-  $el.find('h2').text(item.name);
+  // $el.find('h2').text(item.name);
+  $el.find('img').attr('src', `${item.img}`);
   return $el;
 }
 
