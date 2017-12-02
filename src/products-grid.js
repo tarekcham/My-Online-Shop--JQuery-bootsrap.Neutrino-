@@ -19,7 +19,7 @@ export default function mkProductsGrid(products) {
   products
     .filter(product => product.highlight)
     .forEach((product) => {
-      const $colEl = $('<div class="col-12 col-md-4"></div>');
+      const $colEl = $('<div class="col-12 col-md-3"></div>');
       $colEl.append(mkProductCard(product));
       $rowEl.append($colEl);
     });

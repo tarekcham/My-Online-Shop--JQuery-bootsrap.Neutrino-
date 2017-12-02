@@ -7,7 +7,7 @@
   }
 
   &carousel {
-    height: 70vh;
+    height: 100vh;
     min-height: 200px;
 
     .carousel-indicators li {
@@ -23,4 +23,10 @@
       background-position: center;
     }
   }
+}
+
+.card-img-top {
+  height: 200px;
+  width: 200px;
+  margin: auto;
 }
